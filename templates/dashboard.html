@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Page Header-->
+<header class="masthead"
+    style="background-image: url('     {{url_for('static',filename= 'assets/img/home-bg.jpg')}}         ')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h3 style="font-size:60px;">Welcom to the Dashboard MR. {{params['admin_user']}}</h3>
+                    <span class="subheading">A Blog App developed by {{params['admin_user']}} </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<hr>
+<div style="padding-left:200px;padding-right:100px">
+<h2>Basic Actions</h2>
+<a href="/edit/0"><button type="button" class="btn btn-primary">Add a new post</button></a>
+<a href="/logout"><button type="button" class="btn btn-primary">Logout</button></a>
+
+<hr>
+<h3>Upload a file</h3>
+<form action="/uploader" method="post" enctype="multipart/form-data">
+  <input type="file" name="file1">
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <br><br>
+
+
+</form>
+</div>
+
+
+
+<div style="padding-left:200px;padding-right:100px">
+<table class="table" style="padding-left:100px;padding-right:100px">
+    <thead>
+      <tr>
+        <th>S.no.</th>
+        <th>Post submitted by</th>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for post in posts %}
+
+
+      <tr>
+        <td>{{post.sno}}</td>
+        <td>{{post.poster}}</td>
+        <td>{{post.title}}</td>
+        <td>{{post.date}}</td>
+        <th><a href="/edit/{{post.sno}}"<button class="btn btn-info">Edit</button></a></th>
+        <th><a href="/delete/{{post.sno}}"<button class="btn btn-info">Delete</button></a></th>
+        
+      
+        
+      </tr>
+     
+
+      {% endfor %}  
+    </tbody>
+  </table>
+</div>
+<!-- Main Content-->
+
+<!-- Pager-->
+
+</div>
+</div>
+</div>
+
+{% endblock %}

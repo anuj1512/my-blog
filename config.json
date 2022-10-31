@@ -1,0 +1,28 @@
+{
+    "params":
+    {
+        "local_server": "False",
+        "local_uri":"mysql+pymysql://root:@localhost/flaskapp",
+        "prod_uri":"postgresql://kkquumlpsywfoo:817f521e235a4039b703eec35df9e6e46b3c116edbe1ccb82710d27daaf75ea7@ec2-52-23-131-232.compute-1.amazonaws.com:5432/d4de0vhgki4pgs",
+        "github":"https://github.com/anuj1512",
+        "twitter":"https://twitter.com/kumar15anuj",
+        "fb":"https://www.facebook.com/profile.php?id=100004092466843",
+        "gmail_username":"",
+        "gmail_password":"",
+        "no_of_post":3,
+        "admin_user":"Anuj",
+        "admin_password":"anuj1512",
+        "upload_location":"C:\\Users\\euakumn\\OneDrive - Ericsson AB\\Desktop\\data analysis\\Learn_flask",
+
+        "about_text":"I am a creative and strategic web developer with experience in branding, UX design, development, and project management.I specialize in clean code that is both secure and accessible.Passionate web developer with a wide range of skills in the world of Node.js, Angular and React. I'm also a creative mind and enjoy designing websites while I'm not coding away.We're a small startup in San Francisco looking for a Web developer. If you're a skilled and motivated self-starter who loves to take on the challenges of developing user-friendly, scalable web applications, we want you to join our team!"
+
+
+
+
+    
+
+
+    }
+
+
+}

@@ -122,10 +122,13 @@ def logout():
 @app.route('/post/<string:post_slug>',methods=['GET'])
 def post_route(post_slug):
     post=Post.query.filter_by(slug=post_slug).first()
+    print(post.content)
+    post_content=post.content
+    post_content=post_content.replace('\n','<br>')
     
 
 
-    return render_template('post.html',params=params,post=post)
+    return render_template('post.html',params=params,post=post,post_content=post_content)
 
 
 @app.route('/about')

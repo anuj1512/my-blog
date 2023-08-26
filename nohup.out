@@ -1,0 +1,1003 @@
+python3: can't open file '/var/www/flaskapp/flaskapp/main.py': [Errno 2] No such file or directory
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.55.36.190:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 109-961-192
+49.36.183.12 - - [25/Aug/2023 13:57:37] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 13:57:38] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:57:41] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 13:57:41] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:57:53] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 13:57:54] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:57:55] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 13:57:55] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:59:58] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 13:59:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:59:59] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 13:59:59] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:08] "GET /edit/7 HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:00:08] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:08] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:09] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:16] "GET /edit/7 HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:00:16] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:16] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:17] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:17] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:20] "GET /about HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:00:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:20] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:00:21] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:01:37] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:01:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:01:38] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:01:38] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:05:57] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:05:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:05:58] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:05:58] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:05:58] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:11] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:06:12] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:12] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:12] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:20] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:06:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:20] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:21] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:21] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:27] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 14:06:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:27] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 14:06:28] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+157.245.241.183 - - [25/Aug/2023 14:31:34] code 400, message Bad request version ('À\x14À')
+157.245.241.183 - - [25/Aug/2023 14:31:34] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x037Ô\\\x0b\x1f9y\x09ú\x8e=þ\x82\x1cÏ!ç8B\x84Ç(\x18ËÔ¯5¡ÀP!V\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+157.245.241.183 - - [25/Aug/2023 14:31:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x815\x8d')
+157.245.241.183 - - [25/Aug/2023 14:31:34] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x815\x8d\x0bÀ\x99·ã\x19Ôv!`!ó»È®UÔ" HTTPStatus.BAD_REQUEST -
+157.245.241.183 - - [25/Aug/2023 14:31:34] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:16:49] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:49] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:50] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:51] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:16:51] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:51] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:51] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:52] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:55] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:16:55] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:55] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:56] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:16:56] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:17:04] "GET /contact HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:17:04] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:17:05] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:17:05] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:17:18] "POST /contact HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'flaskapp.contact' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 228, in contact
+    db.session.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/scoping.py", line 554, in commit
+    return self._proxied.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1923, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1239, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1214, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4179, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4314, in _flush
+    with util.safe_reraise():
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4275, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/persistence.py", line 1226, in _emit_insert_statements
+    result = connection.execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1412, in execute
+    return meth(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1635, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_single_context(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1984, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'flaskapp.contact' doesn't exist")
+[SQL: INSERT INTO contact (name, phone_num, msg, date, email) VALUES (%(name)s, %(phone_num)s, %(msg)s, %(date)s, %(email)s)]
+[parameters: {'name': 'Anuj Kumar', 'phone_num': '08574955976', 'msg': 'Hhh', 'date': datetime.datetime(2023, 8, 25, 16, 17, 18, 208692), 'email': 'kumaranuj01596@gmail.com'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+49.36.183.12 - - [25/Aug/2023 16:17:18] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:17:18] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:17:19] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:17:19] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:57:51] "GET /phpmyadmin HTTP/1.1" 404 -
+49.36.183.12 - - [25/Aug/2023 16:57:52] "GET /favicon.ico HTTP/1.1" 404 -
+49.36.183.12 - - [25/Aug/2023 16:59:17] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:59:17] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:18] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:22] "GET /contact HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 16:59:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:23] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:23] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:31] "POST /contact HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'flaskapp.contact' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 228, in contact
+    db.session.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/scoping.py", line 554, in commit
+    return self._proxied.commit()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1923, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1239, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 1214, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4179, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4314, in _flush
+    with util.safe_reraise():
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/session.py", line 4275, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/orm/persistence.py", line 1226, in _emit_insert_statements
+    result = connection.execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1412, in execute
+    return meth(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/sql/elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1635, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1844, in _execute_context
+    return self._exec_single_context(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1984, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/base.py", line 1965, in _exec_single_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.10/dist-packages/sqlalchemy/engine/default.py", line 921, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 772, in _read_packet
+    packet.raise_for_error()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'flaskapp.contact' doesn't exist")
+[SQL: INSERT INTO contact (name, phone_num, msg, date, email) VALUES (%(name)s, %(phone_num)s, %(msg)s, %(date)s, %(email)s)]
+[parameters: {'name': 'Anuj Kumar', 'phone_num': '08574955976', 'msg': 'Bhjj', 'date': datetime.datetime(2023, 8, 25, 16, 59, 31, 112156), 'email': 'kumaranuj01596@gmail.com'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+49.36.183.12 - - [25/Aug/2023 16:59:31] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:31] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:32] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 16:59:32] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:00:15] "POST /contact HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:00:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:00:15] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:00:15] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:00:16] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:22] "GET /contact HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:05:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:23] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:23] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:26] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:05:26] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:28] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:05:29] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:29] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:29] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:51] "GET /contact HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:05:51] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:51] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:05:52] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:01] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:06:01] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:01] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:01] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:05] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:06:06] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:06] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:06] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:14] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [25/Aug/2023 17:06:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:14] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 17:06:15] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 19:30:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 19:30:32] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [25/Aug/2023 19:30:33] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+205.210.31.97 - - [25/Aug/2023 23:03:02] "GET / HTTP/1.1" 200 -
+172.104.11.4 - - [26/Aug/2023 00:08:22] code 400, message Bad request version ('À\x14À')
+172.104.11.4 - - [26/Aug/2023 00:08:22] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03Ç½æFnMí\x06 -\x06:ÚAÂP<¥?Yoý\x11ú\x14®ð¯\x97×\x0fµ\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+69.164.217.74 - - [26/Aug/2023 00:17:26] "GET / HTTP/1.1" 200 -
+45.79.181.223 - - [26/Aug/2023 00:17:40] "GET / HTTP/1.1" 200 -
+45.95.169.184 - - [26/Aug/2023 00:32:35] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x11\x00\x00\x01é\x00\x01\x00\x00\x00ÿÿÿÿ\x01\x00\x00\x00\x00\x00\x00\x00')
+45.95.169.184 - - [26/Aug/2023 00:32:35] "\x00\x00\x00\x11\x00\x00\x01é\x00\x01\x00\x00\x00ÿÿÿÿ\x01\x00\x00\x00\x00\x00\x00\x00\x0c\x02\x00\x00\x00\x10MyCustomAssembly\x05\x01\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+205.210.31.244 - - [26/Aug/2023 03:23:29] "GET / HTTP/1.1" 200 -
+198.199.92.98 - - [26/Aug/2023 04:35:21] "GET /v2/ HTTP/1.1" 404 -
+198.235.24.237 - - [26/Aug/2023 04:58:15] "GET / HTTP/1.0" 200 -
+170.64.192.88 - - [26/Aug/2023 07:05:10] code 400, message Bad request version ('À\x14À')
+170.64.192.88 - - [26/Aug/2023 07:05:10] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Òµ\x843È·2[5¼Dý ¿\x08Þ±\x17õý\x09c\x09\x1ciE\\\x96ÝÎÙ\x91\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+170.64.192.88 - - [26/Aug/2023 07:05:11] code 400, message Bad request version ('À\x14À')
+170.64.192.88 - - [26/Aug/2023 07:05:11] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03íG\x88ûk\x89èl\x91äa\x85%\x92Ñ\x9b\x1dÌº\x1aB\x09sW\x17Zo%Æ=ÌÞ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+170.64.192.88 - - [26/Aug/2023 07:05:11] "GET / HTTP/1.1" 200 -
+185.180.143.141 - - [26/Aug/2023 08:00:31] "GET / HTTP/1.1" 200 -
+185.180.143.141 - - [26/Aug/2023 08:00:33] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+162.216.149.56 - - [26/Aug/2023 08:54:26] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03oë\x02»ê\x02\x90±´Wî'¡×b\x0e\x94µèí\x9ey\x84\x93ÞR¶\x00ë\x0fXé\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+162.216.149.56 - - [26/Aug/2023 08:54:26] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03oë\x02»ê\x02\x90±´Wî'¡×b\x0e\x94µèí\x9ey\x84\x93ÞR¶\x00ë\x0fXé\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+49.36.183.12 - - [26/Aug/2023 10:32:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:34] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:35] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:46] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:32:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:46] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:47] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:32:47] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:09] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:33:09] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:10] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:10] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:18] "GET /post/fourth-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:33:19] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:19] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:19] "GET /static/assets/img/ HTTP/1.1" 404 -
+49.36.183.12 - - [26/Aug/2023 10:33:27] "GET /about HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:33:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:28] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:28] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:35] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:33:36] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:41] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:33:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:41] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:33:41] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:34:57] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:34:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:34:57] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:34:57] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:35:15] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/Linux.pdf'
+49.36.183.12 - - [26/Aug/2023 10:35:15] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:35:15] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:35:16] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:35:16] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:36:04] "GET /edit/2 HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:36:05] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:36:05] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:36:05] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 10:36:29] "GET /logout HTTP/1.1" 302 -
+49.36.183.12 - - [26/Aug/2023 10:36:30] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 10:36:30] "GET /static/css/signin.css HTTP/1.1" 304 -
+205.210.31.185 - - [26/Aug/2023 14:16:42] "GET / HTTP/1.1" 200 -
+188.166.87.67 - - [26/Aug/2023 14:16:48] "GET / HTTP/1.1" 200 -
+43.157.65.152 - - [26/Aug/2023 14:51:59] code 400, message Bad request version ('À\x13À')
+43.157.65.152 - - [26/Aug/2023 14:51:59] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+43.157.65.152 - - [26/Aug/2023 14:52:09] "GET / HTTP/1.1" 200 -
+36.99.136.128 - - [26/Aug/2023 14:52:48] "GET / HTTP/1.1" 200 -
+36.99.136.136 - - [26/Aug/2023 14:52:49] "GET / HTTP/1.1" 200 -
+36.99.136.136 - - [26/Aug/2023 14:52:49] "GET /static/js/scripts.js HTTP/1.1" 200 -
+36.99.136.137 - - [26/Aug/2023 14:52:54] "GET /static/assets/favicon.ico HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:40:29] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:40:31] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:40:31] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:40:32] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:40:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:40:33] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:40:33] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:40:35] "GET /logout HTTP/1.1" 302 -
+49.36.183.12 - - [26/Aug/2023 15:40:35] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:40:36] "GET /static/css/signin.css HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.55.36.190:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-242-212
+49.36.183.12 - - [26/Aug/2023 15:52:45] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:52:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:46] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:46] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:47] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:56] "GET /contact HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:52:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:57] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:52:57] "GET /static/assets/img/contact-bg.jpg HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:53:00] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:53:00] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:53:07] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:53:07] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:53:42] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:53:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:53:42] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:53:43] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+136.226.250.111 - - [26/Aug/2023 15:54:13] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:54:58] "GET /logout HTTP/1.1" 302 -
+49.36.183.12 - - [26/Aug/2023 15:54:58] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:54:58] "GET /static/css/signin.css HTTP/1.1" 304 -
+above if
+above if
+above if
+above if
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.55.36.190:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-242-212
+49.36.183.12 - - [26/Aug/2023 15:56:11] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:56:11] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:57:22] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:57:22] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 15:57:24] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 15:57:24] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:07:49] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:07:49] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:09] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:08:09] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:10] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:10] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:25] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/OD327229977383111100.pdf'
+49.36.183.12 - - [26/Aug/2023 16:08:26] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:26] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:08:26] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:05] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/OD327229977383111100.pdf'
+49.36.183.12 - - [26/Aug/2023 16:09:06] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:06] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:06] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:07] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:11] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/OD327229977383111100.pdf'
+49.36.183.12 - - [26/Aug/2023 16:09:11] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:11] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:12] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:12] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:14] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:09:26] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/OD327229977383111100.pdf'
+49.36.183.12 - - [26/Aug/2023 16:09:26] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:26] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:09:27] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:07] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/OD327229977383111100.pdf'
+49.36.183.12 - - [26/Aug/2023 16:10:07] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:07] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:08] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:08] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:11] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:10:11] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:11] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:12] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:12] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:13] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:10:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:14] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:14] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:15] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:24] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:10:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:25] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:25] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:10:25] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:24] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:11:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:24] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:25] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:25] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:28] "GET /edit/0 HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:11:28] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:28] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:28] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:30] "GET /logout HTTP/1.1" 302 -
+49.36.183.12 - - [26/Aug/2023 16:11:30] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:11:31] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:48] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:11:49] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:49] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:49] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:11:59] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:12:00] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:00] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:00] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+49.36.183.12 - - [26/Aug/2023 16:12:38] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:12:39] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:39] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:39] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:40] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:42] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:12:47] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:12:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:47] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:48] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:48] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:56] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:12:56] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:57] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:12:57] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:42] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:14:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:42] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:42] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:43] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:52] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:14:53] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:53] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:14:53] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:06] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:15:07] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:07] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:07] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:08] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:11] "POST /uploader HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 112, in uploader
+    f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(f.filename)))
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Desktop\\data analysis\\Learn_flask/anuj-resume.pdf'
+49.36.183.12 - - [26/Aug/2023 16:15:11] "GET /uploader?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:11] "GET /uploader?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:12] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:12] "GET /uploader?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:14] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:15:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:15] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:15] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:15:16] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+ * Detected change in '/var/www/flaskapp/flaskapp/app.py', reloading
+above if
+above if
+above if
+above if
+above if
+above if
+above if
+above if
+above if
+above if
+its here GET 0
+above render temp
+above if
+above if
+above if
+above if
+above if
+above if
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.55.36.190:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-242-212
+49.36.183.12 - - [26/Aug/2023 16:20:05] "GET /logout HTTP/1.1" 302 -
+49.36.183.12 - - [26/Aug/2023 16:20:06] "GET /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:20:06] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:19] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:20:19] "GET /static/css/signin.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:33] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:20:33] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:34] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:34] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:34] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:20:44] "POST /uploader HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:20:44] "GET /favicon.ico HTTP/1.1" 404 -
+49.36.183.12 - - [26/Aug/2023 16:25:52] "POST /dashboard HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:25:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:25:53] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:25:53] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:25:53] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:09] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:26:09] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:09] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:10] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:22] "GET /?page=2 HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:26:22] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:22] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:22] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:29] "GET /?page=1 HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:26:29] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:29] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:26:29] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:15] "GET /?page=1 HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:28:16] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:16] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:16] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:17] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:22] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:28:22] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:23] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:28:23] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:30:35] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:30:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:30:35] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:30:35] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:30:36] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:33:44] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 16:33:45] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:33:45] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:33:45] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 16:33:46] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:02:07] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:02:07] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:02:07] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:02:08] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:02:08] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:03:09] "GET /post/second-post HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:03:09] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:03:09] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:03:09] "GET /static/assets/img/about-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:03:10] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+ * Detected change in '/var/www/flaskapp/flaskapp/app.py', reloading
+above if
+above if
+above if
+above if
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-242-212
+ * Detected change in '/var/www/flaskapp/flaskapp/app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/var/www/flaskapp/flaskapp/app.py", line 12, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://45.55.36.190:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 842-500-488
+49.36.183.12 - - [26/Aug/2023 17:40:59] "GET /post/second-post HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 126, in post_route
+    post=urllib.parse.unquote(post)
+  File "/usr/lib/python3.10/urllib/parse.py", line 667, in unquote
+    if '%' not in string:
+TypeError: argument of type 'Post' is not iterable
+49.36.183.12 - - [26/Aug/2023 17:40:59] "GET /post/second-post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:40:59] "GET /post/second-post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:41:00] "GET /post/second-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:41:00] "GET /post/second-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:06] "GET /post/second-post HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 126, in post_route
+    post=urllib.parse.unquote(post)
+  File "/usr/lib/python3.10/urllib/parse.py", line 667, in unquote
+    if '%' not in string:
+TypeError: argument of type 'Post' is not iterable
+49.36.183.12 - - [26/Aug/2023 17:41:06] "GET /post/second-post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:06] "GET /post/second-post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:07] "GET /post/second-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:07] "GET /post/second-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:15] "GET / HTTP/1.1" 200 -
+49.36.183.12 - - [26/Aug/2023 17:41:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:15] "GET /static/js/scripts.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:16] "GET /static/assets/img/home-bg.jpg HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:16] "GET /static/assets/favicon.ico HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:18] "GET /post/second-post HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/www/flaskapp/flaskapp/app.py", line 126, in post_route
+    post=urllib.parse.unquote(post)
+  File "/usr/lib/python3.10/urllib/parse.py", line 667, in unquote
+    if '%' not in string:
+TypeError: argument of type 'Post' is not iterable
+49.36.183.12 - - [26/Aug/2023 17:41:19] "GET /post/second-post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:19] "GET /post/second-post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+49.36.183.12 - - [26/Aug/2023 17:41:20] "GET /post/second-post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/var/www/flaskapp/flaskapp/app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/var/www/flaskapp/flaskapp/app.py", line 12, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/var/www/flaskapp/flaskapp/app.py", line 12, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+Traceback (most recent call last):
+  File "/var/www/flaskapp/flaskapp/app.py", line 12, in <module>
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'

@@ -9,7 +9,8 @@ import os
 from werkzeug.utils import secure_filename
 import pymysql
 from flask_migrate import Migrate
-import psycopg2
+import urllib.parse
+#import psycopg2
 
 
 with open('config.json','r') as c:
@@ -237,4 +238,4 @@ def contact():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000,debug=True)

@@ -9,7 +9,6 @@ import os
 from werkzeug.utils import secure_filename
 import pymysql
 from flask_migrate import Migrate
-import urllib.parse
 #import psycopg2
 
 
@@ -123,7 +122,6 @@ def logout():
 @app.route('/post/<string:post_slug>',methods=['GET'])
 def post_route(post_slug):
     post=Post.query.filter_by(slug=post_slug).first()
-    post=urllib.parse.unquote(post)
     
 
 

@@ -1,18 +1,8 @@
 {
     "params":
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         "local_server": "True",
         "local_uri":"mysql+pymysql://anuj:anuj@localhost/flaskapp",
-=======
-        "local_server": "True",
-        "local_uri":"mysql+pymysql://anuj:anuj@localhost/flaskapp",
->>>>>>> paragraph
-=======
-        "local_server": "True",
-        "local_uri":"mysql+pymysql://anuj:anuj@localhost/flaskapp",
->>>>>>> 67f852101aa9d8f833c9a3a4007e1ab21ae655d6
         "prod_uri":"",
         "github":"https://github.com/anuj1512",
         "twitter":"https://twitter.com/kumar15anuj",
@@ -20,22 +10,15 @@
         "gmail_username":"kumaran3",
         "gmail_password":"@Nuj1997",
         "no_of_post":3,
-<<<<<<< HEAD
-<<<<<<< HEAD
         "admin_user":"kumaran3",
         "admin_password":"@Nuj1997",
         "upload_location":"/home/anuj",
-=======
         "admin_user":"kumaran3",
         "admin_password":"@Nuj1997",
         "upload_location":"/home/anuj/",
->>>>>>> paragraph
-=======
         "admin_user":"kumaran3",
         "admin_password":"@Nuj1997",
         "upload_location":"/home/anuj/",
->>>>>>> 67f852101aa9d8f833c9a3a4007e1ab21ae655d6
-
         "about_text":"I am a creative and strategic web developer with experience in branding, UX design, development, and project management.I specialize in clean code that is both secure and accessible.Passionate web developer with a wide range of skills in the world of Node.js, Angular and React. I'm also a creative mind and enjoy designing websites while I'm not coding away.We're a small startup in San Francisco looking for a Web developer. If you're a skilled and motivated self-starter who loves to take on the challenges of developing user-friendly, scalable web applications, we want you to join our team!"
 
 
